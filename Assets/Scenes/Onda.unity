@@ -293,14 +293,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 17.43, z: -1.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1095847913
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,8 +313,8 @@ GameObject:
   - component: {fileID: 1095847917}
   - component: {fileID: 1095847916}
   - component: {fileID: 1095847915}
-  - component: {fileID: 1095847920}
   - component: {fileID: 1095847919}
+  - component: {fileID: 1095847920}
   m_Layer: 0
   m_Name: Esfera
   m_TagString: Untagged
@@ -517,10 +517,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1095847913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d3fa0a76f2076489f2f7da51b9f993, type: 3}
+  m_Script: {fileID: 11500000, guid: 42d4a885d56e4244db37e889e15603d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 8.3
-  radio1: 10
-  radio2: 5
-  rotacion: -30
+  velocidad: 0
+  radio: 0
+  velocidadangular: 0
