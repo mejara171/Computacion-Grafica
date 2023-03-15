@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: 1842372b16775bc4fa77709b0ce5b3f6,
+  m_Name: BlinnPhong
+  m_Shader: {fileID: -6465566751694194690, guid: 6fbebb39e12d7a44da30b4ee879144c6,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,20 +21,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: f6eb9fcc64a42f64799053af6717a38e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _HeightMap2:
-        m_Texture: {fileID: 2800000, guid: cac1b3a1d7b4edf4d8c86f4ca622f677, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _HieghtMap:
-        m_Texture: {fileID: 2800000, guid: f6eb9fcc64a42f64799053af6717a38e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: 28f064d47b03cb54c91c8abf2fee265f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -51,15 +39,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Displacement: 21.6
+    - _EspecularHardness: 18.7
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors:
-    - _RippleSource: {r: 0.41, g: 1.79, b: -0.806, a: 1.815}
-    - _RipplesSource: {r: 0.19, g: 1.63, b: -0.57, a: 0}
-    - _WaveVelocity: {r: 0.4, g: 0, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &1725652076586781392
+--- !u!114 &815503641697377207
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
