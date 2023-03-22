@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlinnPhong
-  m_Shader: {fileID: -6465566751694194690, guid: 6fbebb39e12d7a44da30b4ee879144c6,
+  m_Name: BlinnPhonnNormal
+  m_Shader: {fileID: -6465566751694194690, guid: 11a27367127d49145a41f310ed34a14f,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -22,6 +22,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 28f064d47b03cb54c91c8abf2fee265f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
         m_Texture: {fileID: 2800000, guid: 28f064d47b03cb54c91c8abf2fee265f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -39,12 +43,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EspecularHardness: 2.19
+    - _EspecularHardness: 57
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &815503641697377207
+--- !u!114 &1050245795873427920
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
